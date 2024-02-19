@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-lfgp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0044-tenant/tkrw-pr712-0075-0044-app/devfile-sample-lfgp@sha256:01f254f8fa2b68c72425b6521b777774c038e599d3252b0c1dc27d21651a3e41
         name: my-nodejs
         ports:
         - containerPort: 3001
